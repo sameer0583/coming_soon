@@ -29,6 +29,9 @@
     </header>
     
     <div id="main">
+      <a href="http://twitter.com/sameer0583" class="social tw" target="_blank" ></a>
+      <a href="http://facebook.com/sameert" class="social fb" target="_blank" ></a>
+      <a href="http://www.linkedin.com/in/sameer0583" class="social in" target="_blank" ></a>
     </div>
 
     <footer>

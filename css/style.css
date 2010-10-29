@@ -1,10 +1,46 @@
 body {
-  background: #0e0f10 url('/images/bg.jpg') no-repeat center top;
+  background: #0e0f10 url('/coming_soon/images/bg.jpg') no-repeat center top;
 }
 
 #main {
+  width: 980px;
+  height: 450px;
   text-align: center;
   font-weight: bold;
   font-size: 50px;
-  padding-top: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#main .social {
+  height: 180px;
+  width: 180px;
+  top: 248px;
+  left: 220px;
+  color: transparent;
+  display: block;
+  position: absolute;
+  background: transparent url('/coming_soon/images/social.jpg') no-repeat left top;
+}
+
+#main .social:hover {
+  background-position: left bottom;
+}
+
+#main .fb {
+  left: 400px;
+  background-position: -180px top;
+}
+
+#main .fb:hover {
+  background-position: -180px bottom;
+}
+
+#main .in {
+  left: 580px;
+  background-position: -360px top;
+}
+
+#main .in:hover {
+  background-position: -360px bottom;
 }
