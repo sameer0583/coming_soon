@@ -29,7 +29,6 @@
     </header>
     
     <div id="main">
-      Coming Soon!!
     </div>
 
     <footer>

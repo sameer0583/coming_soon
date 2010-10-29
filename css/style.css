@@ -1,3 +1,7 @@
+body {
+  background: #0e0f10 url('/coming_soon/images/bg.jpg') no-repeat center top;
+}
+
 #main {
   text-align: center;
   font-weight: bold;
