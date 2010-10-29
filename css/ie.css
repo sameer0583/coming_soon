@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+#lightbox {
+  filter:alpha(opacity=0);
+}
+#jplayer_playlist {
+  width: 966px;
+}
+#album {
+  height: 405px;
+  width: 330px;
+  padding-left: 30px;
+}
