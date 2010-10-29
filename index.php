@@ -17,8 +17,6 @@
 
   <link href="css/style.css" rel="stylesheet" type="text/css" />
 
-  <style type="text/css"><?php require_once('css/style_dynamic.php'); ?></style>
-
 </head>
   <!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
   <!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
