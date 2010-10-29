@@ -29,7 +29,7 @@
     </header>
     
     <div id="main">
-      poop
+      Coming Soon!!
     </div>
 
     <footer>
