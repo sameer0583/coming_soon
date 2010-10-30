@@ -3,20 +3,19 @@ body {
 }
 
 #main {
-  width: 980px;
-  height: 450px;
+  width: 560px;
+  height: 467px;
   text-align: center;
   font-weight: bold;
-  font-size: 50px;
   margin: 0 auto;
   position: relative;
 }
 
 #main .social {
-  height: 180px;
-  width: 180px;
-  top: 248px;
-  left: 220px;
+  height: 155px;
+  width: 155px;
+  top: 197px;
+  left: 48px;
   color: transparent;
   display: block;
   position: absolute;
@@ -28,19 +27,30 @@ body {
 }
 
 #main .fb {
-  left: 400px;
-  background-position: -180px top;
+  left: 203px;
+  background-position: -155px top;
 }
 
 #main .fb:hover {
-  background-position: -180px bottom;
+  background-position: -155px bottom;
 }
 
 #main .in {
-  left: 580px;
-  background-position: -360px top;
+  left: 358px;
+  background-position: -310px top;
 }
 
 #main .in:hover {
-  background-position: -360px bottom;
+  background-position: -310px bottom;
+}
+
+#main .mail {
+  width: 465px;
+  height: 50px;
+  top: 417px;
+  background-position: left -155px;
+}
+
+#main .mail:hover {
+  background-position: left -205px;
 }
