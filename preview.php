@@ -46,7 +46,7 @@
     </header>
     
     <div id="main">
-      <table class="image"
+      <table class="image">
         <td>
           <img src="<?php echo $image; ?>" />
         </td>
