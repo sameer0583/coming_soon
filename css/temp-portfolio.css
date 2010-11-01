@@ -1,0 +1,56 @@
+body {
+  background: #0e0f10 url('/images/temp-bg.jpg') no-repeat center top;
+}
+
+#main {
+  width: 560px;
+  height: 467px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  position: relative;
+}
+
+#main .social {
+  height: 155px;
+  width: 155px;
+  top: 197px;
+  left: 48px;
+  color: transparent;
+  display: block;
+  position: absolute;
+  background: transparent url('/images/social.jpg') no-repeat left top;
+}
+
+#main .social:hover {
+  background-position: left bottom;
+}
+
+#main .fb {
+  left: 203px;
+  background-position: -155px top;
+}
+
+#main .fb:hover {
+  background-position: -155px bottom;
+}
+
+#main .in {
+  left: 358px;
+  background-position: -310px top;
+}
+
+#main .in:hover {
+  background-position: -310px bottom;
+}
+
+#main .mail {
+  width: 465px;
+  height: 50px;
+  top: 417px;
+  background-position: left -155px;
+}
+
+#main .mail:hover {
+  background-position: left -205px;
+}
