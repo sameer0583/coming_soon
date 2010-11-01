@@ -2,6 +2,57 @@
 <html lang="en" class="no-js">
 <head>
   
+  <?php
+    $clients = array(
+      'jets' => array(
+        'name' => 'New York Jets',
+        'desc' => 'When VaynerMedia was working with the Jets, I did a wide array of social media projects ranging from giveaway microsites to designs for in-stadium signage.  They had a strict style guide that I had to adhere to and in working with them, there were many iterative processes along the way.',
+        'projects' => array(
+          array(
+            'name' => 'In-Stadium Signage',
+            'image' => '/images/portfolio/jets-1.jpg',
+            'desc' => 'When the Jets moved to the New Meadowlands, they wanted to add social media to their in-stadium signage.  With various sized pylons and ad spaces around the stadium, it was my job to design the social media ads for Facebook and Twitter.',
+            'skills' => array('photoshop','illustrator'),
+            'link' => array(
+              'url' => '/preview.php?image=/images/preview/jets-1.jpg',
+              'text' => 'sample image'
+            )
+          ),
+          array(
+            'name' => 'Jets Connect',
+            'image' => '/images/portfolio/jets-2.jpg',
+            'desc' => 'Conceptually a really cool project where the Jets gave away various items weekly.  In order to enter you would have to fill out the form and follow the Jets and various Jets Players.  I was in charge of the overall and weekly design elements.',
+            'skills' => array('photoshop'),
+            'link' => array(
+              'url' => '/preview.php?image=/images/preview/jets-2.jpg',
+              'text' => 'sample image'
+            )
+          ),
+          array(
+            'name' => 'MotoPic',
+            'image' => '/images/portfolio/jets-3.jpg',
+            'desc' => 'A highly social promotion sponsored by Motorola which involved Facebook users uploading photos to the Jets\' Facebook album through a microsite to win tickets. Apart from the design, I did a majority of the markup and pair programmed with the developer on the project.',
+            'skills' => array('photoshop', 'illustrator', 'php', 'fbml', 'facebook graph', 'html', 'css'),
+            'link' => array(
+              'url' => 'http://www.facebook.com/Jets?v=app_152295358120613',
+              'text' => 'facebook tab'
+            )
+          ),
+          array(
+            'name' => 'Hard Knocks',
+            'image' => '/images/portfolio/jets-4.jpg',
+            'desc' => 'A Facebook Promotion based on the HBO show Hard Knocks featuring the Jets.  After watching the show, users would answer a question to win prizes.  I did the majority of the coding and all of the overall / weekly design for this project.',
+            'skills' => array('photoshop', 'illustrator', 'php', 'fbml', 'html', 'css'),
+            'link' => array(
+              'url' => '/preview.php?image=/images/preview/jets-4.jpg',
+              'text' => 'sample image'
+            )
+          )
+        )
+      )
+    );
+  ?>
+  
   <meta charset="utf-8">
   <!--[if IE]><![endif]-->
 
@@ -29,10 +80,41 @@
     </header>
     
     <div id="main">
-      <a href="http://twitter.com/sameer0583" class="social tw" target="_blank" ></a>
-      <a href="http://facebook.com/sameert" class="social fb" target="_blank" ></a>
-      <a href="http://www.linkedin.com/in/sameer0583" class="social in" target="_blank" ></a>
-      <a href="mailto:sameer@sameert.com" class="social mail" ></a>
+      <?php foreach( $clients as $class => $client ) { ?>
+      <div id="<?php echo $class; ?>" class="client">
+        <h2><?php echo $client['name']; ?></h2>
+        <p class="main"><?php echo $client['desc']; ?></p>
+        <div class="projects">
+          <?php foreach( $client['projects'] as $project ) { ?>
+          <hr>
+          <table class="project">
+            <tr>
+              <td>
+                <div class="image">
+                  <img src="<?php echo $project['image']; ?>" />
+                </div>
+              </td>
+              <td class="info">
+                <h3><?php echo $project['name']; ?></h3>
+                <div class="skills">
+                  <?php foreach( $project['skills'] as $skill ) { ?>
+                    <span class="skill"><?php echo $skill; ?></span>
+                  <?php } ?>
+                </div>
+                <p><?php echo $project['desc']; ?></p>
+                <?php
+                  if( @$project['link'] ) {
+                    echo '<a href="'.$project['link']['url'].'" class="sample" >'.$project['link']['text'].' <span>»</span></a>';
+                  }
+                ?>
+              </td>
+            </tr>
+          </table>
+          <?php } ?>
+        </div>
+      </div>
+      <hr>
+      <?php } ?>
     </div>
 
     <footer>

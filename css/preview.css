@@ -1,0 +1,27 @@
+body {
+  background: #030304 url('/images/temp-bg.jpg') no-repeat center top;
+}
+
+#main {
+  text-align: center;
+  margin: 0 auto;
+  padding: 135px 10px 50px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#main .image {
+  margin: 0 auto;
+}
+
+#main .image td {
+  padding: 5px;
+  -moz-box-shadow: 3px 3px 10px #000000;
+  -webkit-box-shadow: 3px 3px 10px #000000;
+  box-shadow: 3px 3px 10px #000000;
+  filter:  progid:DXImageTransform.Microsoft.dropshadow(OffX=3px, OffY=3px, Color='#000000');
+  -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=3px, OffY=3px, Color='#000000')";
+  background-image: -moz-linear-gradient(top, #6a767f, #303539);
+  background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #6a767f),color-stop(1, #303539));
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6a767f', endColorstr='#303539');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#6a767f', endColorstr='#303539')";
+}
