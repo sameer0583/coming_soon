@@ -292,7 +292,7 @@
   $hhal = array(
     'name' => 'HipHopAtLunch.com',
     'subtitle' => 'Hip Hop Blog',
-    'desc' => 'I am from the south so working on a hip hop blog was surprisingly fun.  Working with Mike Boyd Jr. was a pleasure and he knew exactly what he wanted from a functionality standpoint, however on the design side, all he told me was, "I want it to be ice cream paint job… you know… cream on the inside, clean on the outside" (A reference to Dorrough Music - Ice Cream Paint Job).',
+    'desc' => 'I am from the south so working on a hip hop blog was surprisingly fun.  Working with Mike Boyd Jr. was a pleasure and he knew exactly what he wanted from a functionality standpoint, however on the design side all he told me was, "I want it to be ice cream paint job… you know… cream on the inside, clean on the outside" (A reference to Dorrough Music - Ice Cream Paint Job).',
     'projects' => array(
       array(
         'name' => 'Logo / Branding',
@@ -340,7 +340,6 @@
 
   $clients = array(
     'bjtv' => $bjtv,
-    'nets' => $nets,
     'hhal' => $hhal,
     'kerry' => $kerry,
     'jalen' => $jalen,
