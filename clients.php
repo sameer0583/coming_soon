@@ -372,12 +372,41 @@
       )
     )
   );
+  
+  $stride = array(
+    'name' => 'Stride and Trident',
+    'subtitle' => 'Social Media Marketing Campaign',
+    'desc' => 'It was fun working with a company that loved getting creative with their marketing.  Trident and Stride, both subsidiaries of Cadbury wanted to get into the social media game and it was my job to blend their brands with their emerging social media presence.',
+    'projects' => array(
+      array(
+        'name' => 'Mega Mystery Mansion Facebook Tab',
+        'image' => '/images/portfolio/stride-1.jpg',
+        'desc' => 'We wanted to incorperate Maxim Magazine and Stride\'s branding to create a Facebook tab where users could enter for a chance to win tickets to an exclusive event.  I took care of the design and some of the front-end coding.',
+        'skills' => array('photoshop', 'php', 'fbml', 'html', 'css'),
+        'link' => array(
+          'url' => '/preview.php?image=/images/preview/stride-1-trans.png',
+          'text' => 'sample image'
+        )
+      ),
+      array(
+        'name' => 'Layer of Deals',
+        'image' => '/images/portfolio/stride-2.jpg',
+        'desc' => 'Trident Layers in conjunction with Threadless wanted to host an event where they were giving away samples and discounts.  This is the flyer that I created for that event.',
+        'skills' => array('photoshop', 'illustrator'),
+        'link' => array(
+          'url' => '/preview.php?image=/images/preview/stride-2-trans.png',
+          'text' => 'sample image'
+        )
+      )
+    )
+  );
 
 
   $clients = array(
     'bjtv' => $bjtv,
     'hhal' => $hhal,
     'kerry' => $kerry,
+    'stride' => $stride,
     'jalen' => $jalen,
     'jets' => $jets,
     'usa' => $usa,
