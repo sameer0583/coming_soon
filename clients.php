@@ -40,7 +40,7 @@
         'desc' => 'A Facebook Promotion based on the HBO show Hard Knocks featuring the Jets.  After watching the show, users would answer a question to win prizes.  I did the majority of the coding and all of the overall / weekly design for this project.',
         'skills' => array('photoshop', 'illustrator', 'php', 'fbml', 'html', 'css'),
         'link' => array(
-          'url' => '/preview.php?image=/images/preview/jets-4.jpg',
+          'url' => '/preview.php?image=/images/preview/jets-4-trans.png',
           'text' => 'sample image'
         )
       )
@@ -336,6 +336,42 @@
       )
     )
   );
+  
+  $usa = array(
+    'name' => 'Team USA',
+    'subtitle' => 'Twitter Widgets',
+    'desc' => 'With all the buzz around the 2010 Winter Olympics in Vancouver, Team USA wanted to create several widgets that would plug-in to their social media presence.',
+    'projects' => array(
+      array(
+        'name' => 'Twitter Widgets',
+        'image' => '/images/portfolio/usa-1.jpg',
+        'desc' => 'Within the size constraints of the widget, I had to design a widget that would primarily showcase daily video news updates and secondarily highlight Team USA athletes, all while incorperating Twitter functionality.',
+        'skills' => array('photoshop', 'css'),
+        'link' => array(
+          'url' => '/preview.php?image=/images/preview/usa-1-trans.png',
+          'text' => 'sample image'
+        )
+      )
+    )
+  );
+  
+  $proc = array(
+    'name' => 'Procure',
+    'subtitle' => 'Twitter Widgets',
+    'desc' => 'When ProCure wanted to create an organization that would provide aid and support for proton radiation therapy patients, it seemed like a great cause that I wanted to be a part of.',
+    'projects' => array(
+      array(
+        'name' => 'Website',
+        'image' => '/images/portfolio/proc-1.jpg',
+        'desc' => 'We wanted to attack this project with the companies goals in mind.  The objective of the website was to provide information, patient testimonials, and the ability to apply for a grant.  I was in charge of the overall design and a portion of the front-end coding.',
+        'skills' => array('photoshop', 'php', 'html', 'css'),
+        'link' => array(
+          'url' => 'http://www.procurecancerfoundation.org/',
+          'text' => 'visit website'
+        )
+      )
+    )
+  );
 
 
   $clients = array(
@@ -343,6 +379,8 @@
     'hhal' => $hhal,
     'kerry' => $kerry,
     'jalen' => $jalen,
-    'jets' => $jets
+    'jets' => $jets,
+    'usa' => $usa,
+    'proc' => $proc
   );
 ?>
