@@ -96,7 +96,7 @@
   );
   
   $bjtv = array(
-    'name' => 'BroadwayJoe.tv',
+    'name' => 'Broadway Joe',
     'subtitle' => 'Joe Namath\'s Personal Website',
     'desc' => 'As a huge football fan, it was a great experience to design and code this project.  Joe wanted to create a website where he essentially housed his video blog and at the same time act as his personal social media hub.  This project required a complete product from logo creation to social media branding.',
     'projects' => array(
@@ -154,7 +154,7 @@
   );
   
   $kerry = array(
-    'name' => 'KerryRhodes.com',
+    'name' => 'Kerry Rhodes',
     'subtitle' => 'Kerry Rhodes\' Personal Website',
     'desc' => 'As a huge football fan, it was a great experience to design and code this project.  Joe wanted to create a website where he essentially housed his video blog and at the same time act as his personal social media hub.  This project required a complete product from logo creation to social media branding.',
     'projects' => array(
@@ -222,7 +222,7 @@
   );
   
   $jalen = array(
-    'name' => 'JalenRose.com',
+    'name' => 'Jalen Rose',
     'subtitle' => 'Jalen Rose\'s Personal Website',
     'desc' => 'As a huge UNC fan, I will never forget the Fab Five and the C. Web Timeout.  None the less I am also a huge Michigan Football fan, so when I had the opportunity to work on Jalen Rose\'s website I was really excited.  Jalen had a lot to say and was and still is involved in a lot of various organizations (ESPN, Rose Foundation, etc...).',
     'projects' => array(
@@ -290,7 +290,7 @@
   );
   
   $hhal = array(
-    'name' => 'HipHopAtLunch.com',
+    'name' => 'Hip Hop At Lunch',
     'subtitle' => 'Hip Hop Blog',
     'desc' => 'I am from the south so working on a hip hop blog was second nature to me.  Working with Mike Boyd Jr. was a pleasure and he knew exactly what he wanted from a functionality standpoint, however on the design side all he told me was, "I want it to be ice cream paint job… you know… cream on the inside, clean on the outside" (A reference to Dorrough Music - Ice Cream Paint Job).',
     'projects' => array(
@@ -400,6 +400,24 @@
       )
     )
   );
+  
+  $linq = array(
+    'name' => 'Linq3 Technologies',
+    'subtitle' => 'Linq3 Technologies Business Website',
+    'desc' => 'Linq3 Technologies is a unique and emerging company that works with state lottery commissions to create secure lottery transactions on ATM\'s and other unmanned points of sales.  They came to me with the task of creating a website for their business that was both informational and sales tool.',
+    'projects' => array(
+      array(
+        'name' => 'Website',
+        'image' => '/images/portfolio/linq-1.jpg',
+        'desc' => 'As a company that offered many new businesses increased abilities to sell, I wanted to design Linq3\'s website to that point.  I wanted to make the information easy to navigate and digest.',
+        'skills' => array('photoshop'),
+        'link' => array(
+          'url' => '/preview.php?image=/images/preview/linq-1.jpg',
+          'text' => 'sample image'
+        )
+      )
+    )
+  );
 
 
   $clients = array(
@@ -408,6 +426,7 @@
     'kerry' => $kerry,
     'stride' => $stride,
     'jalen' => $jalen,
+    'linq' => $linq,
     'jets' => $jets,
     'usa' => $usa,
     'proc' => $proc
