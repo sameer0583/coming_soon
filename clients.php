@@ -340,7 +340,7 @@
   $usa = array(
     'name' => 'Team USA',
     'subtitle' => 'Twitter Widgets',
-    'desc' => 'With all the buzz around the 2010 Winter Olympics in Vancouver, Team USA wanted to create several widgets that would plug-in to their social media presence.',
+    'desc' => 'With all the buzz around the 2010 Winter Olympics in Vancouver, Team USA wanted to create several widgets that would plug-in to their social media presence on Twitter.',
     'projects' => array(
       array(
         'name' => 'Twitter Widgets',
