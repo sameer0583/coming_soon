@@ -33,6 +33,7 @@
     </header>
     
     <div id="main">
+      <a href="/" class="logo"></a>
       <?php foreach( $clients as $class => $client ) { ?>
       <div id="<?php echo $class; ?>" class="client">
         <h2><?php echo $client['name']; ?></h2>
@@ -70,6 +71,13 @@
       </div>
       <hr>
       <?php } ?>
+    </div>
+    
+    <div id="lightbox">
+      <div class="bg"></div>
+      <div class="inside">
+        poop
+      </div>
     </div>
 
     <footer>
