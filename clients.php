@@ -156,7 +156,7 @@
   $kerry = array(
     'name' => 'Kerry Rhodes',
     'subtitle' => 'Kerry Rhodes\' Personal Website',
-    'desc' => 'As a huge football fan, it was a great experience to design and code this project.  Joe wanted to create a website where he essentially housed his video blog and at the same time act as his personal social media hub.  This project required a complete product from logo creation to social media branding.',
+    'desc' => 'Coming Soon!!',
     'projects' => array(
       array(
         'name' => 'Website',
