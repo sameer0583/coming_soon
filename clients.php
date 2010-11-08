@@ -156,7 +156,7 @@
   $kerry = array(
     'name' => 'Kerry Rhodes',
     'subtitle' => 'Kerry Rhodes\' Personal Website',
-    'desc' => 'Coming Soon!!',
+    'desc' => 'Working with Kerry was an interesting experience.  With someone already established heavily on one social media platform (Twitter), it was interesting to design stuff for him that balanced his popularity on that platform while showcasing all the other platform he was on.',
     'projects' => array(
       array(
         'name' => 'Website',
