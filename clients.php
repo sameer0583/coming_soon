@@ -381,7 +381,7 @@
       array(
         'name' => 'Mega Mystery Mansion Facebook Tab',
         'image' => '/images/portfolio/stride-1.jpg',
-        'desc' => 'We wanted to incorperate Maxim Magazine and Stride\'s branding to create a Facebook tab where users could enter for a chance to win tickets to an exclusive event.  I took care of the design and some of the front-end coding.',
+        'desc' => 'We wanted to incorporate Maxim Magazine and Stride\'s branding to create a Facebook tab where users could enter for a chance to win tickets to an exclusive event.  I took care of the design and some of the front-end coding.',
         'skills' => array('photoshop', 'php', 'fbml', 'html', 'css'),
         'link' => array(
           'url' => '/preview.php?image=/images/preview/stride-1-trans.png',
@@ -418,13 +418,31 @@
       )
     )
   );
-
-
+  
+  $afa = array(
+    'name' => 'Athletes For America',
+    'subtitle' => 'Athletes For America Business Website',
+    'desc' => 'AFA (Athletes For America) is a network for athletes, sports teams, and sports organizations.  Portraying all that AFA stood for through design was a challenge in itself, but one that I was excited to take on.',
+    'projects' => array(
+      array(
+        'name' => 'Website',
+        'image' => '/images/portfolio/afa-1.jpg',
+        'desc' => 'AFA came to us with a blank slate and its was my job to design and code a website that could house the various information they had to offer and incorporate their emerging social media presence.',
+        'skills' => array('photoshop', 'illustrator', 'wordpress', 'php', 'html', 'css'),
+        'link' => array(
+          'url' => '/preview.php?image=/images/preview/afa-1.jpg',
+          'text' => 'sample image'
+        )
+      )
+    )
+  );
+  
   $clients = array(
     'bjtv' => $bjtv,
     'hhal' => $hhal,
     'kerry' => $kerry,
     'stride' => $stride,
+    'afa' => $afa,
     'jalen' => $jalen,
     'linq' => $linq,
     'jets' => $jets,
